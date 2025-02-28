@@ -1,14 +1,11 @@
 build:
-	poetry build
-
-publish:
-	poetry publish --dry-run
+	uv build
 
 package-install:
 	python3 -m pip install --user dist/*.whl
 
 install:
-	poetry install
+	uv sync
 
 brain-games:
-	poetry run brain-games
+	uv run brain-games
