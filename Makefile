@@ -19,5 +19,8 @@ brain-calc:
 brain-gcd:
 	uv run brain-gcd
 
+brain-progresssion:
+	uv run brain-progression
+
 lint:
 	uv run ruff check brain_games
