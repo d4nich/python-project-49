@@ -1,6 +1,8 @@
 import random
 import math
 rules = 'Find the greatest common divisor of given numbers.'
+
+
 def get_round():
     num1 = random.randint(1, 50)
     num2 = random.randint(1, 50)
